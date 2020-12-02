@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --primary-bg-color: #ffffff;
+  --bg-color: #2f303a;
+  --btn-color: #f5f4fa;
+  --porfolio-card-color: #eeeeee;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: 400;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+
+  margin: 0;
+}
+ul {
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Логотип */
+.logo {
+  margin-right: 93px;
+
+  color: var(--logo-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo span {
+  color: var(--accent-color);
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*Site nav*/
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+.auth-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/*Footer*/
+.footer .container {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer {
+  background-color: var(--bg-color);
+}
+.footer a {
+  margin-right: 0;
+  color: var(--primary-bg-color);
+}
+.contacte {
+  margin-top: 20px;
+}
+.contacte .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer span {
+  color: var(--accent-color);
+}
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-link {
+  opacity: 0.6;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
