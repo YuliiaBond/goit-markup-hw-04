@@ -240,12 +240,18 @@
 .clients-list:hover {
   border: 1px solid var(--accent-color);
 }
-.logo-1:hover,
-.logo-2:hover,
-.logo-3:hover,
-.logo-4:hover,
-.logo-5:hover,
-.logo-6:hover {
+.client-link:hover .logo-1,
+.client-link:hover .logo-2,
+.client-link:hover .logo-3,
+.client-link:hover .logo-4,
+.client-link:hover .logo-5,
+.client-link:hover .logo-6,
+.client-link:focus .logo-1,
+.client-link:focus .logo-2,
+.client-link:focus .logo-3,
+.client-link:focus .logo-4,
+.client-link:focus .logo-5,
+.client-link:focus .logo-6 {
   --color2: var(--accent-color);
   --color4: var(--accent-color);
 }
