@@ -183,3 +183,34 @@
 }
 
 /* Постоянные клиенты */
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  padding-top: 94px;
+}
+.clients {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.clients-list:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-list {
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--social-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-content: center;
+}
+.clients-list a {
+  display: block;
+  align-content: center;
+}
