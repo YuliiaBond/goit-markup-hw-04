@@ -35,25 +35,23 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {
+.hero-button {
   display: inline-block;
   margin-bottom: 200px;
   padding: 10px 32px;
   min-width: 136px;
 
   background-color: var(--accent-color);
-  border: 1px solid transparent;
-
-  font-family: inherit;
-}
-.hero-link {
   color: var(--primary-bg-color);
-
+  border: 1px solid transparent;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*Section*/
 .section-title {
@@ -72,16 +70,15 @@
   margin-right: -15px;
   margin-left: -15px;
 }
-/* .features .item + .item {
+.features .item + .item {
   margin-left: 30px;
-} */
+}
 .features .item {
   width: 270px;
   margin-right: 15px;
   margin-left: 15px;
 }
 .features-title {
-  padding-top: 94px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -96,6 +93,14 @@
   font-size: 14px;
   line-height: 1.71;
 }
+.antenna,
+.clock,
+.diagram,
+.astronaut {
+  margin-top: 119px;
+  margin-bottom: 55px;
+  margin-left: 100px;
+}
 /* Чем мы занимаемся */
 .workes {
   display: flex;
@@ -108,9 +113,17 @@
 /* Наша команда */
 .team {
   display: flex;
+  padding-bottom: 94px;
 }
 .team .item:not(:last-of-type) {
   margin-right: 30px;
+}
+.team .item {
+  width: 270px;
+  height: 428px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .container > .teams {
   padding-top: 94px;
@@ -126,12 +139,47 @@
   text-align: center;
 }
 .team-text {
-  padding-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.team {
-  padding-bottom: 94px;
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  height: 44px;
 }
+.social-link {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  border: 1px soli transparent;
+  border-radius: 50%;
+}
+.instagram,
+.twitter,
+.facebook,
+.linkedin {
+  margin-top: 12px;
+  padding: 0;
+  fill: var(--social-color);
+}
+.instagram:hover,
+.instagram:focus,
+.twitter:hover,
+.twitter:focus,
+.facebook:hover,
+.facebook:focus,
+.linkedin:hover,
+.linkedin:focus {
+  fill: var(--primary-bg-color);
+}
+
+/* Постоянные клиенты */

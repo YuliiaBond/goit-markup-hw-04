@@ -17,6 +17,7 @@ html {
   --btn-color: #f5f4fa;
   --porfolio-card-color: #eeeeee;
   --hero-color: rgba(47, 48, 58, 0.4);
+  --social-color: #afb1b8;
 }
 body {
   color: var(--primary-text-color);
@@ -118,17 +119,23 @@ p {
   line-height: 16px;
   letter-spacing: 1.14;
 }
+.envelope,
+.smartphone {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-.item-mail::before {
-  content: " ";
-  width: 16px;
-  height: 12px;
-  background-image: url("../icon/envelope\ \(hover\).svg");
-  background-size: contain;
+.envelope:hover,
+.smartphone:hover,
+.envelope:focus,
+.smartphone:focus {
+  fill: var(--accent-color);
 }
+
 /*Footer*/
 .footer .container {
   display: block;
