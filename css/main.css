@@ -116,7 +116,7 @@
 
 /* Наша команда */
 .team-container {
-  background-color: var(--btn-color);
+  background: var(--btn-color);
   width: 1600px;
   height: 708px;
 }
