@@ -137,17 +137,6 @@ p {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
- {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
-/* .envelope:hover,
-.smartphone:hover,
-.envelope:focus,
-.smartphone:focus {
-  fill: var(--accent-color);
-} */
-
 /*Footer*/
 .footer {
   background-color: var(--bg-color);
