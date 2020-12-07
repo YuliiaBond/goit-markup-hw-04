@@ -70,6 +70,17 @@
   margin-right: -15px;
   margin-left: -15px;
 }
+.features-icon {
+  width: 270px;
+  height: 120px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: 94px;
+  background-color: var(--btn-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .features .item + .item {
   margin-left: 30px;
 }
@@ -79,6 +90,7 @@
   margin-left: 15px;
 }
 .features-title {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -93,14 +105,6 @@
   font-size: 14px;
   line-height: 1.71;
 }
-.antenna,
-.clock,
-.diagram,
-.astronaut {
-  margin-top: 119px;
-  margin-bottom: 55px;
-  margin-left: 100px;
-}
 /* Чем мы занимаемся */
 .workes {
   display: flex;
@@ -111,6 +115,11 @@
 }
 
 /* Наша команда */
+.team-container {
+  background-color: var(--btn-color);
+  width: 1600px;
+  height: 708px;
+}
 .team {
   display: flex;
   padding-bottom: 94px;
@@ -172,14 +181,15 @@
   padding: 0;
   fill: var(--social-color);
 }
-.instagram:hover,
-.instagram:focus,
-.twitter:hover,
-.twitter:focus,
-.facebook:hover,
-.facebook:focus,
-.linkedin:hover,
-.linkedin:focus {
+.social-link:hover .instagram,
+.social-link:focus .instagram,
+.social-link:hover .twitter,
+.social-link:focus .twitter,
+.social-link:hover .facebook,
+.social-link:focus .facebook,
+.social-link:hover .linkedin,
+.social-link:focus .linkedin {
+  color: var(--accent-color);
   fill: var(--primary-bg-color);
 }
 
