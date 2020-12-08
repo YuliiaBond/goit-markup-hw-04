@@ -141,7 +141,8 @@ p {
 .footer {
   background-color: var(--bg-color);
   width: 1600px;
-  height: 252px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-content a {
   display: block;
