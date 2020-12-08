@@ -84,6 +84,7 @@ p {
 }
 .site-nav .link {
   display: block;
+  align-items: baseline;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -118,7 +119,11 @@ p {
 
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 1.14;
+}
+.item-mail > .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .envelope,
 .smartphone {
@@ -143,18 +148,20 @@ p {
   /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-content a {
   display: block;
   color: var(--primary-bg-color);
-  margin-bottom: 20px;
-}
-.footer-content {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 0;
 }
 .footer .container {
   display: flex;
+  align-items: center;
+}
+.contacte {
+  margin-top: 20px;
 }
 .contacte .item:not(:last-child) {
   margin-bottom: 9px;
@@ -172,13 +179,9 @@ p {
   font-style: normal;
   font-size: 14px;
 }
-.footer .item:not(:last-child) {
-  margin-bottom: 9px;
-}
 .resources {
   display: inline-block;
   margin-left: 70px;
-  margin-top: 72px;
 }
 .resources-title {
   font-size: 14px;
