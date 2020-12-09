@@ -218,6 +218,7 @@ p {
   margin: 0;
   fill: var(--primary-bg-color);
 }
-.resources-link:hover {
+.resources-link:hover,
+.resources-link:focus {
   background: var(--accent-color);
 }
