@@ -240,8 +240,8 @@
   --color4: var(--social-color);
   --color2: var(--social-color);
 }
-.clients-list:hover,
-.clients-list:focus {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-color);
 }
 .client-link:hover .logo-1,
